@@ -11,9 +11,6 @@ import (
 	"sync"
 )
 
-/*
- This functin
-*/
 func bytesToPowers(b int64) string {
 	names :=
 		[]string{"b", "kb", "mb", "gb", "tb", "pb", "eb", "zb", "yb"}
