@@ -18,7 +18,7 @@ func bytesToPowers(b int64) string {
 	i := 0
 
 	res := float64(b)
-	for res > 1024 {
+	for res >= 1024 {
 		if i == l-1 {
 			break
 		}
